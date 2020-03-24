@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 1420px;
+    margin: auto;
+}
+.quadro {
+    padding: 5px;
+}
+.blue, .container, .red, .purple, .yellow, .sky {
+    display: flex;
+}
+.blue, .container, .purple, .yellow, .sky {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.container, .blue {
+    padding: 8px;
+}
+.container {
+    padding-top: 0;
+}
+.blue div {
+    height: 100px;
+    background-color: #7B68EE;
+    width: 20%;
+    margin: 1px;
+}
+.box1, .box2, .box3 {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.box1 {
+    width: 21%;
+    padding-right: 1%;
+}
+.box1 div {
+    background-color: red;
+    height: 170px;
+    margin: 1px;
+}
+.box1 div:first-child {
+    height: 70px;
+}
+.box2 {
+    width: 38%;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    padding: 0 1%;
+}
+
+.purple div{
+    height: 170px;
+    background-color: purple;
+    width: 33%;
+    margin: 1px;
+}
+.purple {
+    padding-bottom: 10px;
+}
+.yellow div {
+    height: 230px;
+    background-color: yellow;
+    width: 50%;
+    margin: 1px;
+}
+.box3 {
+    width: 40%;
+    margin-left: 1%;
+}
+.sky div {
+    height: 122px;
+    background-color: turquoise;
+    width: 50%;
+    margin: 1px;
+}
+.sky {
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
+}
+.sky:last-child {
+    border: none;
+    padding-bottom: 0;
+}
+.sky:first-child {
+    padding-top: 0;
+}
+
