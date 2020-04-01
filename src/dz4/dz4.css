@@ -12,7 +12,7 @@ body {
 h1 {
     font-size: 36px;
 }
-h2, .order p:first-child {
+h2, .order p:first-child, .corporate p:first-child, .handcrafted p:first-child {
     text-transform: uppercase;
 }
 h3 {
