@@ -7,33 +7,17 @@ body {
     width: 1420px;
     margin: auto;
 }
-.quadro {
-    padding: 5px;
-}
 .blue, .container, .red, .purple, .yellow, .sky {
     display: flex;
 }
-.blue, .container, .purple, .yellow, .sky {
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
 .container, .blue {
-    padding: 8px;
-}
-.container {
-    padding-top: 0;
+    margin: 8px;
 }
 .blue div {
     height: 100px;
     background-color: #7B68EE;
     width: 20%;
     margin: 1px;
-}
-.box1, .box2, .box3 {
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
 }
 .box1 {
     width: 21%;
@@ -90,4 +74,3 @@ body {
 .sky:first-child {
     padding-top: 0;
 }
-

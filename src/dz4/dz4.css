@@ -16,18 +16,18 @@ h2, .order p:first-child, .corporate p:first-child, .handcrafted p:first-child {
     text-transform: uppercase;
 }
 h3 {
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 h4 {
-    padding: 30px 30px 30px 12%;
+    margin: 30px 30px 30px 12%;
     font-size: 20px;
 }
 a {
     text-decoration: none;
     color: black;
 }
-ul li {
-    padding-bottom: 15px;
+footer a {
+    margin-bottom: 6px;
 }
 .search input, .footer_forms form input, .footer_forms button, .order_now button {
     height: 28px;
@@ -45,15 +45,11 @@ ul li {
     color: white;
     text-align: center;
 }
-.footer_forms form {
-    padding-bottom: 15px;
+.footer_forms form, .footer_forms p {
+    margin-bottom: 15px;
 }
-.footer_forms p {
-    padding-bottom: 15px;
-}
-.menu, .head, .secure, .secure div, .footer_info, .sign, .top_header, .flower_button, .flowericons {
+.menu ul, .head, .secure, .secure div, .footer_info, .sign, .top_header, .flower_button, .flowericons {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 16px 12%;
@@ -76,12 +72,18 @@ ul li {
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
 }
+.menu ul {
+    list-style: none;
+}
+.menu ul li {
+    padding: 0;
+}
 .secure {
     border-bottom: 1px solid gray;
 }
 .secure div img {
     width: 30px;
-    padding-right: 5px;
+    margin-right: 5px;
 }
 .links, .useful, .footer_forms, .footer_text {
     display: flex;
@@ -92,9 +94,6 @@ ul li {
 }
 .links, .useful, .footer_forms {
     padding-right: 50px;
-}
-.footer a {
-    margin-bottom: 6px;
 }
 .footer_info {
     background-color: #DCDCDC;
@@ -107,8 +106,8 @@ ul li {
 .footer_text ul {
     text-align: justify;
 }
-.sign {
-    padding: 16px 12%;
+.footer_text ul li {
+    margin-bottom: 15px;
 }
 .pay img, .icon img{
     height: 25px;
