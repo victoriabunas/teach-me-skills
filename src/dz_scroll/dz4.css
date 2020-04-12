@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	min-width: 800px;
+}
+main {
+    width: 100%;
+}
+h1 {
+    font-size: 36px;
+}
+h2, .order p:first-child, .corporate p:first-child, .handcrafted p:first-child {
+    text-transform: uppercase;
+}
+h3 {
+    margin-bottom: 20px;
+}
+h4 {
+    margin: 30px 0;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+footer a {
+    margin-bottom: 6px;
+}
+.search input, .footer_forms form input, .footer_forms button, .order_now button {
+    height: 28px;
+    width: 190px;
+    border: 1px solid gray;
+    border-radius: 12px;
+    outline: none;
+    color: #9E9C9C;
+}
+.search input, .footer_forms form input {
+    padding-left: 10px;
+}
+.footer_forms button {
+    background-color: #3CB371;
+    color: white;
+    text-align: center;
+}
+.footer_forms form, .footer_forms p {
+    margin-bottom: 15px;
+}
+nav ul, .head, .secure, .secure div, .footer_info, .sign, .top_header, .flower_button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 12%;
+}
+
+.secure div {
+    padding: 0;
+}
+.top_header {
+    justify-content: flex-end;
+}
+.top_header div {
+    margin-right: 10px;
+    padding-right: 10px;
+}
+.top_header div:last-child {
+    margin-right: 0;
+    padding-right: 0;
+}
+nav {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    padding: 0;
+}
+.secure {
+    border-bottom: 1px solid gray;
+}
+.secure div img {
+    width: 30px;
+    margin-right: 5px;
+}
+.links, .useful, .footer_forms, .footer_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 300px;
+}
+.links, .useful, .footer_forms {
+    padding-right: 50px;
+}
+.footer_info {
+    background-color: #DCDCDC;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footer_info div {
+    width: 25%;
+}
+.footer_text ul {
+    text-align: justify;
+}
+.footer_text ul li {
+    margin-bottom: 15px;
+}
+.pay img, .icon img{
+    height: 25px;
+}
+.grid-container {
+    padding: 12px 12%;
+    display: grid;
+    height: 450px;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: repeat(3, 1fr); 
+    grid-column-gap: 3px; 
+    grid-row-gap: 8px;
+    grid-template-areas: 
+    "order img_flowers"
+    "corporate img_flowers"
+    "handcrafted img_flowers";
+    position: relative;
+}
+.img_flowers img {
+    max-width: 100%;
+}
+.img_flowers {
+    grid-area: img_flowers;
+    overflow: hidden;
+}
+.grid-container div a img {
+    width: 20%;
+    overflow: hidden;
+}
+.order_now {
+    position: absolute;
+    top: 33%;
+    right: 20%;
+    text-align: center;
+    font-size: 30px;
+}
+.order_now button {
+    color: black;
+    font-size: 16px;
+}
+.flowericons div p {
+    text-align: center;
+}
+.flowericons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150%;
+}
+
+.flow1 {
+    width: 25%;
+    height: 280px;
+    overflow: scroll;
+    display: flex;
+}
+
+.flower_button {
+    justify-content: space-around;
+}
+.flower_button button {
+    height: 20px;
+    width: 60%;
+    border: 1px solid gray;
+    border-radius: 12px;
+    outline: none;
+    color: #9E9C9C;
+}
+.order_now div {
+    border-top: 1px solid #DCDCDC;
+    border-bottom: 1px solid #DCDCDC;
+}
+.order_now p {
+    font-style: italic;
+    font-size: 42px;
+    color: #483D8B;
+}
+.scrollbar {
+    height: 400px;
+    width: 76%;
+    overflow: scroll;
+    margin: 0 auto;
+}
+.flow11 {
+    width: 1512px;
+    height: 400px;
+}
+
+.flow1 .flow11 img {
+    width: 250px;
+}
+
